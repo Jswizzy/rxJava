@@ -6,8 +6,7 @@ import io.reactivex.Observable;
 import java.util.Random;
 
 public class RangeEx {
-
-
+    
     public static void main(String[] args) {
         Observable<Integer> randomInts = Observable.create(subscriber -> {
             Random random = new Random();
